@@ -1,9 +1,14 @@
-<?php
-//この行はコメントです
-//PHPでは文末にセミコロン「;」を使って文を区切ります。 セミコロンを忘れるとエラーが起きるので注意しましょう。
-
-echo('test');
-echo 'こんにちは';
-
-echo 3+1;
-?>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <?php
+  print 'こんにちは世界！<br />';
+  print 'こんにちは皆さん';
+  ?> 
+</body>
+</html>
